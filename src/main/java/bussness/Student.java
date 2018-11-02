@@ -7,7 +7,7 @@ package bussness;
 
 /**
  *
- *this is student class
+ 
  */
 public class Student {
     private int studentId;
@@ -15,6 +15,11 @@ public class Student {
     String bath;
 
     public Student() {
+    }
+
+    public Student(int studentId, String studentName) {
+        this.studentId = studentId;
+        this.studentName = studentName;
     }
 
     public Student(int studentId, String studentName, String bath) {
