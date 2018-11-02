@@ -12,14 +12,26 @@ package bussness;
 public class Student {
     private int studentId;
     private String studentName;
+    String bath;
 
     public Student() {
     }
 
-    public Student(int studentId, String studentName) {
+    public Student(int studentId, String studentName, String bath) {
         this.studentId = studentId;
         this.studentName = studentName;
+        this.bath = bath;
     }
+
+    public String getBath() {
+        return bath;
+    }
+
+    public void setBath(String bath) {
+        this.bath = bath;
+    }
+
+   
 
     public int getStudentId() {
         return studentId;
